@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  maintenance-runner:
+    build: .
+    container_name: maintenance_runner
+    env_file:
+      - .env
+    volumes:
+      - ./maintenance_runner_cron.log:/app/maintenance_runner_cron.log

@@ -1,0 +1,42 @@
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 14:50:35 +07 2025
+📌 Job ID=1 | Type=REPACK | Schema=public | Table=orders | Options='-j 4'
+⚙️  Running custom SQL...
+✅ Job 1 finished with status DONE
+---------------------------------------------
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 14:51:51 +07 2025
+✅ No PENDING jobs. Exiting.
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 14:56:16 +07 2025
+✅ No PENDING jobs. Exiting.
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 15:13:39 +07 2025
+📌 Job ID=2 | Type=REPACK | Schema=public | Table=orders | Options='-j 4'
+⚙️  Running pg_repack...
+✅ Job 2 finished with status FAILED
+---------------------------------------------
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 15:14:51 +07 2025
+📌 Job ID=3 | Type=REPACK | Schema=public | Table=orders | Options='-j 4'
+⚙️  Running pg_repack...
+✅ Job 3 finished with status FAILED
+---------------------------------------------
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 15:18:31 +07 2025
+📌 Job ID=4 | Type=REPACK | Schema=public | Table=orders | Options='-j 4'
+⚙️  Running pg_repack...
+✅ Job 4 finished with status FAILED
+---------------------------------------------
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 15:19:42 +07 2025
+✅ No PENDING jobs. Exiting.
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 15:22:50 +07 2025
+✅ No PENDING jobs. Exiting.
+---------------------------------------------
+🔑 Starting maintenance runner at Tue Jun 24 15:23:56 +07 2025
+📌 Job ID=5 | Type=SQL | Schema=public | Table=orders | Options=''
+⚙️  Running custom SQL...
+✅ Job 5 finished with status DONE
+---------------------------------------------
